@@ -1,5 +1,5 @@
 import { Router } from "express";
-import  MessageController from "./controllers/MessageController";
+import  MessageController from "./controllers/messageController";
 import verifyId from "./middlewares/verifyId";
 import verifyBody from "./middlewares/verifyBody";
 
