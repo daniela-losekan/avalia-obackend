@@ -1,2 +1,2 @@
 export * from './user.model';
-export * from './scrap.model';
+export * from './scr.model';

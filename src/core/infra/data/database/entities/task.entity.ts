@@ -6,7 +6,10 @@ import {
     BeforeInsert,
     BeforeUpdate,
     ManyToOne,
-    JoinColumn
+    JoinColumn,
+    UpdateDateColumn,
+    CreateDateColumn,
+    PrimaryGeneratedColumn,
 } from "typeorm";
 import { v4 as uuid } from 'uuid';
 import { ProjectEntity } from "./project.entity";

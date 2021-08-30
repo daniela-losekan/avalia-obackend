@@ -28,7 +28,6 @@ export default class App {
     }
 
     private middlewares() {
-        // TODO
     }
 
     private routes() {
